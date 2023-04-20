@@ -1,0 +1,19 @@
+public class Question7 {
+    // Create a checkAge() method with an integer variable called age
+    static void	.....	 (........) {
+        // If age is less than 18, print "Access denied"
+       if (......... ) {
+                System.out.println("Access denied");
+        // If age is greater than, or equal to, 18, print "Access granted"
+ 	    } else{
+            System.out.println("Access granted");
+        }
+
+    }// end of method
+
+    public static void main(String[] args) {
+        // Call the checkAge method and pass along an age of 20
+       checkAge(20);
+    }
+
+}
