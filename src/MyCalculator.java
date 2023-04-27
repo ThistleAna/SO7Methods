@@ -15,7 +15,7 @@ public class MyCalculator {
         System.out.println("Addition : " + num1 + " add " + num2 + " equals " + add(num1, num2));
         System.out.println("Subtraction : " + num1 + " minus " + num2 + " equals " + minus(num1, num2));
         System.out.println("Multiplication : " + num1 + " multiply " + num2 + " equals " + multiply(num1, num2));
-        System.out.println("Division : " + num1 + " add " + num2 + " equals " + division(num1, num2));
+        System.out.println("Division : " + num1 + " divide by " + num2 + " equals " + division(num1, num2));
     } // end of main method
 
     // create method to add two numbers
@@ -41,6 +41,5 @@ public class MyCalculator {
     public static int division(int a, int b) {
         //return a / b
         return a / b;
-
     }
 }
