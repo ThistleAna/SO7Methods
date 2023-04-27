@@ -14,10 +14,12 @@ public class MinMaxMethods {
 
         //call maxNumber
         System.out.println("The the biggest number is " + maxNumber(num1, num2, num3));
+        //call minNumber
+        System.out.println("The the smallest number is " + minNumber(num1, num2, num3));
 
     }// main method ends
 
-    // methods to find the biggest number
+    // method 1 to find the biggest number
     static int maxNumber(int a, int b, int c){
         // do if else statement
         if (a > b && a > c) {
@@ -29,4 +31,15 @@ public class MinMaxMethods {
         }
     } // end of maxNumber method
 
+    // create method 2 to return the minimum number
+    static int minNumber(int a, int b, int c){
+        // do if else statement
+        if (a < b && a < c) {
+            return a; // a is the biggest
+        } else if ( b < a && b < c) {
+            return b; // b is the biggest
+        } else {
+            return c; // c is the biggest
+        }
+    } // end of minNumber method
 }
